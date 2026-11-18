@@ -1,0 +1,123 @@
+{
+  "companias": {
+    "GASES DEL ORINOCO": {
+      "campos_minimos": [
+        "que_necesita"
+      ],
+      "categoria_respaldo": "OTRA_SOLICITUD",
+      "estrategia_prioridad": "reglas",
+      "plataforma": "simulada",
+      "categorias": {
+        "INCIDENTE_TECNICO": {
+          "descripcion": "Fallas técnicas en equipos o instalaciones de gas.",
+          "campos_minimos": [
+            "que_paso",
+            "cuando"
+          ],
+          "prioridad_base": "Alta",
+          "proximo_paso": "GESTION_EXTERNA"
+        },
+        "CONSULTA_INFORMATIVA": {
+          "descripcion": "Consultas generales sobre horarios, requisitos o servicios de gas.",
+          "campos_minimos": [],
+          "prioridad_base": "Baja",
+          "proximo_paso": "RESPUESTA_DIRECTA"
+        },
+        "OTRA_SOLICITUD": {
+          "descripcion": "Solicitud identificable que requiere revisión especializada por no corresponder a otra categoría.",
+          "campos_minimos": [],
+          "prioridad_base": "Media",
+          "proximo_paso": "GESTION_EXTERNA"
+        }
+      }
+    },
+    "MENSAJERIA DEL VALLE": {
+      "campos_minimos": [
+        "que_necesita"
+      ],
+      "categoria_respaldo": "OTRA_SOLICITUD",
+      "estrategia_prioridad": "servicio_externo",
+      "prioridad_url_env": "PRIORIDAD_MENSAJERIA_URL",
+      "plataforma": "simulada",
+      "categorias": {
+        "NOVEDAD_ENTREGA": {
+          "descripcion": "Retrasos, pérdidas o inconvenientes con la entrega de un envío.",
+          "campos_minimos": [
+            "que_paso",
+            "cuando"
+          ],
+          "prioridad_base": "Media",
+          "proximo_paso": "GESTION_EXTERNA"
+        },
+        "OTRA_SOLICITUD": {
+          "descripcion": "Solicitud identificable que requiere revisión especializada por no corresponder a otra categoría.",
+          "campos_minimos": [],
+          "prioridad_base": "Media",
+          "proximo_paso": "GESTION_EXTERNA"
+        }
+      }
+    },
+    "ENERGIA DEL NORTE (DEMO)": {
+      "campos_minimos": [
+        "que_necesita"
+      ],
+      "categoria_respaldo": "OTRA_SOLICITUD",
+      "estrategia_prioridad": "reglas",
+      "plataforma": "simulada",
+      "categorias": {
+        "INTERRUPCION_SERVICIO": {
+          "descripcion": "Interrupciones o fallas en el suministro de energía.",
+          "campos_minimos": [
+            "que_paso",
+            "cuando"
+          ],
+          "prioridad_base": "Alta",
+          "proximo_paso": "GESTION_EXTERNA"
+        },
+        "CONSULTA_FACTURACION": {
+          "descripcion": "Consultas sobre fechas de pago, medios de pago o conceptos de la factura.",
+          "campos_minimos": [],
+          "prioridad_base": "Media",
+          "proximo_paso": "RESPUESTA_DIRECTA"
+        },
+        "OTRA_SOLICITUD": {
+          "descripcion": "Solicitud identificable que requiere revisión especializada por no corresponder a otra categoría.",
+          "campos_minimos": [],
+          "prioridad_base": "Media",
+          "proximo_paso": "GESTION_EXTERNA"
+        }
+      }
+    },
+    "AGUAS DE LA SABANA (DEMO)": {
+      "campos_minimos": [
+        "que_necesita"
+      ],
+      "categoria_respaldo": "OTRA_SOLICITUD",
+      "estrategia_prioridad": "reglas",
+      "plataforma": "simulada",
+      "categorias": {
+        "FUGA_AGUA": {
+          "descripcion": "Fugas o daños en la red de suministro de agua.",
+          "campos_minimos": [
+            "que_paso",
+            "cuando"
+          ],
+          "prioridad_base": "Alta",
+          "proximo_paso": "GESTION_EXTERNA"
+        },
+        "CONSULTA_INFORMATIVA": {
+          "descripcion": "Consultas de horarios, requisitos o servicios de agua.",
+          "campos_minimos": [],
+          "prioridad_base": "Baja",
+          "proximo_paso": "RESPUESTA_DIRECTA"
+        },
+        "OTRA_SOLICITUD": {
+          "descripcion": "Solicitud identificable que requiere revisión especializada por no corresponder a otra categoría.",
+          "campos_minimos": [],
+          "prioridad_base": "Media",
+          "proximo_paso": "GESTION_EXTERNA"
+        }
+      }
+    }
+  }
+}

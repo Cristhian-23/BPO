@@ -1,0 +1,50 @@
+{
+  "gestion_externa": {
+    "summary": "Gases: incidente técnico",
+    "value": {
+      "compania": "GASES DEL ORINOCO",
+      "solicitud_id": "BPO-GAS-001",
+      "solicitud_descripcion": "Desde ayer mi estufa no enciende. Solicito una revisión técnica."
+    }
+  },
+  "respuesta_directa": {
+    "summary": "Gases: consulta informativa",
+    "value": {
+      "compania": "GASES DEL ORINOCO",
+      "solicitud_id": "BPO-INFO-001",
+      "solicitud_descripcion": "Quiero conocer los horarios de atención de sus oficinas."
+    }
+  },
+  "informacion_insuficiente": {
+    "summary": "Incidente sin referencia temporal",
+    "value": {
+      "compania": "GASES DEL ORINOCO",
+      "solicitud_id": "BPO-INCOMPLETA-001",
+      "solicitud_descripcion": "Mi estufa no enciende. Solicito una revisión técnica."
+    }
+  },
+  "prioridad_externa": {
+    "summary": "Mensajería: prioridad del cliente",
+    "value": {
+      "compania": "MENSAJERIA DEL VALLE",
+      "solicitud_id": "BPO-MSJ-001",
+      "solicitud_descripcion": "El envío no llegó ayer. Solicito que lo entreguen. Mi tipo de documento es CC y mi número es 000123."
+    }
+  },
+  "categoria_respaldo": {
+    "summary": "Gases: revisión especializada",
+    "value": {
+      "compania": "GASES DEL ORINOCO",
+      "solicitud_id": "BPO-REVISION-001",
+      "solicitud_descripcion": "Solicito presentar una propuesta de alianza comercial con la empresa."
+    }
+  },
+  "compania_adicional": {
+    "summary": "Compañía adicional de demostración",
+    "value": {
+      "compania": "ENERGIA DEL NORTE (DEMO)",
+      "solicitud_id": "BPO-ENERGIA-001",
+      "solicitud_descripcion": "Desde esta mañana no tengo servicio de energía. Solicito restablecer el suministro."
+    }
+  }
+}
